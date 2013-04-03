@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Homebril by hsousa</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Homebril</h1>
+        <p>Micro framework http://homerosousa.com</p>
+
+        <p class="view"><a href="https://github.com/hsousa/homebril">View the Project on GitHub <small>hsousa/homebril</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/hsousa/homebril/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/hsousa/homebril/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/hsousa/homebril">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Just for FUN</h1>
+
+<p>``` css Setup grid values
+@column_width: 45px;
+<a href="https://github.com/gutter" class="user-mention">@gutter</a>: 10px;
+@total_width: 980px;</p>
+
+<pre><code>
+``` css standard
+.std(@x){
+    width: ((@column_width)*@x)+(@gutter*((@x*-1)+1)*-1);
+    float: left; 
+    display: inline;
+}
+</code></pre>
+
+<p>``` css column
+.col(<a href="https://github.com/x" class="user-mention">@x</a>, <a href="https://github.com/last" class="user-mention">@last</a>:0) when (<a href="https://github.com/last" class="user-mention">@last</a> = 0 ) { 
+    .std(<a href="https://github.com/x" class="user-mention">@x</a>); 
+    margin-right: <a href="https://github.com/gutter" class="user-mention">@gutter</a>; }</p>
+
+<p>.col(<a href="https://github.com/x" class="user-mention">@x</a>, <a href="https://github.com/last" class="user-mention">@last</a>:0) when (<a href="https://github.com/last" class="user-mention">@last</a> = 1 ){ 
+    .std(<a href="https://github.com/x" class="user-mention">@x</a>); 
+    margin-right: 0; }</p>
+
+<pre><code></code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/hsousa">hsousa</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
