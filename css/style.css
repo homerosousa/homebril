@@ -1,0 +1,33 @@
+@import 'normalize.css';
+/*GRID*/
+/*You can change this params to your grid*/
+/*This takes the last margin of the last element*/
+/*This is the one that center your container, you can change the name*/
+.wrapper {
+  margin: 0 auto;
+  width: 980px;
+  overflow: hidden;
+}
+/*Column, Clear and Push calcs*/
+.clear {
+  clear: both;
+}
+#mainHeader {
+  width: 980px;
+  float: left;
+  display: inline;
+  margin-right: 0;
+}
+aside {
+  width: 210px;
+  float: left;
+  display: inline;
+  margin-right: 0;
+}
+section {
+  width: 650px;
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 110px;
+}
